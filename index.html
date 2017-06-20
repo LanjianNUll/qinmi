@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>我爱秦迷</title>
+    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+    <link rel="stylesheet" href="css/index.css" type="text/css"/>
+    <link rel="stylesheet" href="css/css.css" type="text/css"/>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <link rel="stylesheet" href="css/jquery-ui.css" type="text/css"/>
+
+</head>
+<body>
+<div id="dialog-form" title="登陆">
+  <p class="validateTips">所有的表单字段都是必填的。</p>
+ 
+  <form>
+  <fieldset>
+    <label for="name">名字</label>
+    <input type="text" name="name" id="name" class="text ui-widget-content ui-corner-all">
+    <label for="password">密码</label>
+    <input type="password" name="password" id="password" value="" class="text ui-widget-content ui-corner-all">
+  </fieldset>
+  </form>
+</div>
+
+
+<div style="width: 100%">
+    <!--头部-->
+    <div style="background: #444444">
+        <div class="header" id="header_id">
+            <div class="user-wrap-left">欢迎你来到秦时明月粉丝网站</div>
+            	<div class="user-wrap">
+               <button id="login">登陆</button>
+                <button id="create-user">注册</button>
+            	</div>
+        	</div>
+    	</div>
+    <!--logo-->
+    <div class="logo_header_id" id="logo_header_id">
+        <div class="logo-div-left"></div>
+        	<div class="menu-div-right">
+            <ul id="menu">
+                <li class="two_grade selected"><a href="index.html">首页</a></li>
+                <li class="two_grade"><a href="qingmishequ.html">秦时明月社区</a></li>
+                <li class="two_grade"><a href="jieshao.html">人物介绍</a></li>
+                  <li class="two_grade"><a href="zhuzibaijia.html">诸子百家</a></li>
+                <li class="two_grade"><a href="lianxiwomen.html">联系我们</a></li>
+                <li class="two_grade help-get-start"> <a href="#">帮助 </a> </li>
+            </ul>     
+         </div>
+    </div>     
+    <!--轮播-->
+    <div>
+        <div class="flexslider" style="width: 100%">
+            <ul class="slides">
+                <li style="background:url(img/ad1.gif) 50% 0 no-repeat;">
+                		<div id="a1" class="aa"><a href="zhuzibaijia.html">墨家</a></div>
+                        <div id="a11" class="aa"><a href="zhuzibaijia.html">鬼谷</a></div>
+                </li>
+                <li style="background:url(img/ad4.gif) 50% 0 no-repeat;">
+                				<div id="a1" class="aa"><a href="jieshao.html">盖聂</a></div>
+                                <div id="a11" class="aa"><a href="jieshao.html">胜七</a></div>
+                </li>
+                <li style="background:url(img/ad2.gif) 50% 0 no-repeat;">
+                				<div id="a1"  class="aa"><a href="zhuzibaijia.html">罗网</a></div>  
+                                <div id="a11" class="aa"><a href="zhuzibaijia.html">逆流沙</a> </div>
+                </li>
+                <li style="background:url(img/ad3.gif) 50% 0 no-repeat;">
+                				<div id="a1" class="aa"><a href="jieshao.html">天明</a></div>
+                                <div id="a11" class="aa"><a href="jieshao.html">少羽</a></div>
+                </li>
+                 
+            </ul>
+        </div>
+    </div>
+ </div>
+ <br>
+ <br>
+<div id="main">
+
+              <div class="box news_box3">
+	<div class="wrap">
+			<div class="case_list">
+			<div class="case_img pngfix">
+				<img src="img/1.jpg" class="pngfix" onMouseDown="playvideo(1)">
+			</div>
+			<div class="case_info">
+				<p class="case_title"><a href="javascript:void(0)" onclick="playvideo(1)">百步飞剑</a></p>
+				<p class="case_content">天下虽定，乱世未绝。天下第一剑客，始皇帝的近卫——盖聂，携故人之子——荆天明，为躲避秦始皇的追杀，踏上了荆棘密布的旅程。此刻，年少的天明对...</p>
+			</div>
+		</div>
+				<div class="case_list">
+			<div class="case_img pngfix">
+				<img src="img/3.jpg" class="pngfix" onMouseDown="playvideo(2)">
+			</div>
+			<div class="case_info">
+				<p class="case_title"><a href="javascript:void(0)" onclick="playvideo(2)">夜尽天明</a></p>
+				<p class="case_content">恶梦才刚则以，天明体内的阴阳咒印开始发作；大铁锤与隐蝠激战，生死未卜；与墨家机关术抗争了百年的公输家族，也已悄然出动……奸细已经渗入机关城内，并制造了混乱，灾难已悄悄地逼近……</p>
+			</div>
+		</div>
+				<div class="case_list">
+			<div class="case_img pngfix">
+				<img src="img/5.jpg" class="pngfix" onMouseDown="playvideo(3)">
+			</div>
+			<div class="case_info">
+				<p class="case_title"><a href="javascript:void(0)" onclick="playvideo(3)">诸子百家</a></p>
+				<p class="case_content">原来刺中盖聂的是逆流沙易容高手黑麒麟。盖聂带伤和卫庄比武赢了，但渊虹断了。盖聂用断剑指着卫庄的脖子，但卫庄暗箭伤人，在说话的时候给了盖聂一...</p>
+			</div>
+		</div>
+				<div class="case_list">
+			<div class="case_img pngfix">
+				<img src="img/4.jpg" class="pngfix" onMouseDown="playvideo(4)">
+			</div>
+			<div class="case_info">
+				<p class="case_title"><a href="javascript:void(0)" onclick="playvideo(4)">万里长城</a></p>
+				<p class="case_content">自从机关城崩塌，墨家抵抗势力几乎被全部清除。秦帝国又回到太平盛世的迷梦中……咸阳宫中的嬴政一边动用无数劳工营造万里长城，一边进行着一些更为...</p>
+			</div>
+		</div>
+				<div class="case_list">
+			<div class="case_img pngfix">
+				<img src="img/2.jpg" class="pngfix" onMouseDown="playvideo(5)">
+			</div>
+			<div class="case_info">
+				<p class="case_title"><a href="javascript:void(0)" onclick="playvideo(5)">君临天下</a></p>
+				<p class="case_content">秦时明月之君临天下》是国产大型3D动画《秦时明月》的第五部，秦时明月之君临天下全集动画故事背景取自秦始皇统一六国到咸阳城被攻陷这段英雄辈出...</p>
+			</div>
+		</div>
+				<div class="case_list">
+			<div class="case_img pngfix">
+				<img src="img/6.jpg" class="pngfix" onMouseDown="playvideo(6)">			
+                </div>
+			<div class="case_info">
+				<p class="case_title"><a href="javascript:void(0)" onclick="playvideo(6)">番外篇</a></p>
+				<p class="case_content">对于一群即将要死的人。你们往前再走一步，可能和信念的距离就越来越远了。</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="fade" class="black_overlay"> 
+</div>
+<div id="light" class="white_content">
+
+	<video id="video" style="float:left" controls>
+    <source id="source1" src="#" type="video/mp4" >
+    </video>
+    <div style="background-color:#000;">
+        <a href="javascript:void(0)" onclick="stopvideo()">Close</a>
+    </div>
+    </div>
+</div>
+
+   <div class="footer">
+        <p>公司地址：江西省小宜春市学府路路14棟(13145203838438)</p>
+        <p>公司 &nbsp;&nbsp;版权所有 © 2015-20??</p>
+        <p>做自己的网站，做自己的超级英雄  来源:<a href="#" target="_blank">玄机科技</a></p>
+    </div>
+<!-------------------------------------------------end---------------------------------------------------------------->
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.flexslider').flexslider({
+            directionNav: true,
+            pauseOnAction: false
+        });
+    });
+</script>
+<script>
+function playvideo(xx){
+	//var s=document.getElementById('source1').src="juebieshi.mp4";
+	var src2=new Array("juebieshi.mp4","三国.mp4","百步飞剑01.mkv");
+	//document.getElementById('source1').src="juebieshi.mp4";
+	document.getElementById('source1').src=src2[xx%1];
+	document.getElementById('video').load();
+	document.getElementById('light').style.display='block';
+	document.getElementById('fade').style.display='block';
+	
+	
+	
+	document.getElementById('video').play();
+	}
+</script>
+<script>
+function stopvideo(){
+	document.getElementById('light').style.display='none';
+	document.getElementById('fade').style.display='none';
+	document.getElementById('video').load();
+	}
+</script>
+</body>
+</html>  
